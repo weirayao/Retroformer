@@ -70,7 +70,13 @@ DATA_DIR=/path/to/data
 ```
 
 ### 👩‍💻 Experiments <a name="inference"></a>
+* Model training. Run these three scripts one by one.
 
+```bash
+python sft_run.py
+python reward_run.py
+python ppo_run.py
+```
 * See the [`experiments/hotpotqa`](experiments/hotpotqa) folder for running hotpotqa experiments.
 * See the [`experiments/alfworld`](experiments/alfworld) folder for running alfworld experiments.
 * See the [`experiments/webshop`](experiments/webshop) folder for running webshop experiments.
