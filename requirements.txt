@@ -1,0 +1,8 @@
+trl
+peft
+jsonlines
+fastchat
+bitsandbytes
+sentencepiece
+protobuf
+wandb
