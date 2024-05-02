@@ -77,6 +77,8 @@ python sft_run.py
 python reward_run.py
 python ppo_run.py
 ```
+* Evaluation
+Note that the evaluation environment are largely imported from the original [Reflexion code repo](https://github.com/noahshinn/reflexion). We thank the Reflexion team for providing the evaluation environments and self-reflection agent architecture. 
 * See the [`experiments/hotpotqa`](experiments/hotpotqa) folder for running hotpotqa experiments.
 * See the [`experiments/alfworld`](experiments/alfworld) folder for running alfworld experiments.
 * See the [`experiments/webshop`](experiments/webshop) folder for running webshop experiments.
